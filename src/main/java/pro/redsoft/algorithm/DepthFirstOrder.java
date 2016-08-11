@@ -1,5 +1,7 @@
 package pro.redsoft.algorithm;
 
+import pro.redsoft.algorithm.princeton.Stack;
+
 public class DepthFirstOrder {
     private boolean[] marked;          // marked[v] = has v been marked in dfs?
     private int[] pre;                 // pre[v]    = preorder  number of v
